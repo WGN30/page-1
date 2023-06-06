@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fictional Chocolate Brand</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F4F4F4;
+    }
+
+    header {
+      background-color: #FCECDD;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 10px;
+      color: #9C5E31;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #FFF;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #9C5E31;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .product {
+      display: flex;
+      margin-bottom: 30px;
+      border: 1px solid #E8E8E8;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #FFF;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .product:hover {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .product img {
+      width: 200px;
+      height: 200px;
+      margin-right: 20px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .product-info {
+      flex: 1;
+    }
+
+    .product-info h2 {
+      color: #9C5E31;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .product-info p {
+      color: #666;
+      margin-bottom: 5px;
+    }
+
+    .product-info p.price {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gomas Inc.</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product1.html">Product 1</a>
+      <a href="product2.html">Product 2</a>
+      <a href="product3.html">Product 3</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Welcome to our Chocolate Brand!</h1>
+
+    <div class="product">
+      <img src="product1.jpg" alt="">
+      <div class="product-info">
+        <h2>Milk chocolate</h2>
+        <p>Milk chocolate is a creamy and sweet treat made with cocoa, sugar, and milk, providing a smooth and comforting taste that is enjoyed by chocolate lovers of all ages.</p>
+        <p class="price">Price: 5.50€</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product2.jpg" alt="">
+      <div class="product-info">
+        <h2>White chocolate</h2>
+        <p>White chocolate is a creamy and indulgent confectionery made with cocoa butter, sugar, and milk solids, offering a rich and sweet flavor. It adds a luxurious touch to desserts and treats.</p>
+        <p class="price">Price: 5.50€</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product3.jpg" alt="">
+      <div class="product-info">
+        <h2>Dark chocolate</h2>
+        <p>Dark chocolate is a bittersweet delight with high cocoa content, offering a rich and intense flavor profile that appeals to chocolate enthusiasts.</p>
+        <p class="price">Price: 5.50€</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
